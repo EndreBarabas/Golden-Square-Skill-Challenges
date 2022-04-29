@@ -1,0 +1,23 @@
+1. Describe the problem
+   As a user
+   So that I can improve my grammar
+   I want to verify that a text starts with a capital letter and ends with a suitable   sentence-ending punctuation mark.
+
+2. Design the method signature
+   is_correct = grammar_check(string)
+   
+
+3. Create examples as tests
+   grammar_check("")
+   #fail: empty string
+   
+   grammar_check("I don't speak Spanish.")
+   True
+
+   grammar_check("speak like on msn")
+   False
+   
+
+   
+4. Implement the behaviour
+

@@ -10,4 +10,9 @@ RSpec.describe "count_words method" do
         result = count_words("I have been freerunning so far.")
         expect(result).to eq(6)
     end
+
+    it "counts words in a string, returns integer" do
+        result = count_words("This is a very basic sentence.")
+        expect(result).to eq(6)
+    end
 end
