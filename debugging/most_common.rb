@@ -28,8 +28,10 @@ end
 
 counter = LetterCounter.new("Digital Punk")
 counter2 = LetterCounter.new("aaaassddfgh")
+counter3 = LetterCounter.new("otnjsbdinbjdnbjinvmreoigntmrungjojeom")
 p counter.calculate_most_common
 p counter2.calculate_most_common
+p counter3.calculate_most_common
 
 # Intended output:
 # [2, "i"]

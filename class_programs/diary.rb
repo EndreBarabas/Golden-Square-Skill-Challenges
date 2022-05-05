@@ -39,6 +39,3 @@ class DiaryEntry
     return (@contents_arr[1..(wpm * minutes)].join(" ")) + " "
   end
 end
-
-mydiary = DiaryEntry.new("First day", "doge " * 450)
-p mydiary.reading_chunk(200, 1)
